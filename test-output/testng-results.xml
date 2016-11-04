@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="15" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The application url is :- https://www.flipkart.com]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- firefox
+]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_VERIFYHOMEPAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_SEARCHPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_FEILDS_ARE_EXPANDABLE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Element [[FirefoxDriver: firefox on WINDOWS (71fb9512-8120-41dd-9182-9774cb1bbd0d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1501PO01976', ip: '10.0.31.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fb9512-8120-41dd-9182-9774cb1bbd0d]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_SELECT_DROPDOWN_IS_PRESENT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_USER_IS_ABLE_TO_VIEW_RATINGS_OF_THE_PRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_VERIFYSEARCHRESULTPAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP04_VERIFYSEARCHRESULT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP05_SELECTFIRSTPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFYPRODUCTINFO *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP07_VERIFYPRODUCTNAME *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP08_ADDPRODUCTTOCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFYCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFY_SIMILAR_PRODUCTS_ARE_PRESNT_FOR_PRODUCT_DETAILS_PAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_46_PM\screenshot.png]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP10_VERIFY_USER_IS_ABLE_TO_BUY_THE_PRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_47_PM\screenshot.png]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP11_VERIFY_USER_NAVIGATED_TO_SHIPPING_PAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_48_PM\screenshot.png]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="199158" started-at="2016-11-04T15:15:32Z" finished-at="2016-11-04T15:18:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="199158" started-at="2016-11-04T15:15:32Z" finished-at="2016-11-04T15:18:51Z">
+      <class name="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="Start_Test_Session" is-config="true" duration-ms="9784" started-at="2016-11-04T20:45:32Z" finished-at="2016-11-04T20:45:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The application url is :- https://www.flipkart.com]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- firefox
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:42Z" finished-at="2016-11-04T20:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep01_VerifyHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_VERIFYHOMEPAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep01_VerifyHomePage()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep01_VerifyHomePage" duration-ms="91" started-at="2016-11-04T20:45:42Z" finished-at="2016-11-04T20:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep01_VerifyHomePage -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T20:45:42Z" finished-at="2016-11-04T20:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep01_VerifyHomePage status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep01_VerifyHomePage()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:42Z" finished-at="2016-11-04T20:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_SearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_SEARCHPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep02_SearchProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep02_SearchProduct" duration-ms="947" started-at="2016-11-04T20:45:42Z" finished-at="2016-11-04T20:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep02_SearchProduct -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T20:45:43Z" finished-at="2016-11-04T20:45:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_SearchProduct status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_SearchProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep02_Verify_Feilds_Are_Expandable()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep02_Verify_Feilds_Are_Expandable" duration-ms="2008" started-at="2016-11-04T20:45:43Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element [[FirefoxDriver: firefox on WINDOWS (71fb9512-8120-41dd-9182-9774cb1bbd0d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1501PO01976', ip: '10.0.31.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fb9512-8120-41dd-9182-9774cb1bbd0d]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep02_Verify_Feilds_Are_Expandable -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:43Z" finished-at="2016-11-04T20:45:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_Feilds_Are_Expandable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_FEILDS_ARE_EXPANDABLE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_Verify_Feilds_Are_Expandable status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_Feilds_Are_Expandable()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output=Element [[FirefoxDriver: firefox on WINDOWS (71fb9512-8120-41dd-9182-9774cb1bbd0d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1501PO01976', ip: '10.0.31.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fb9512-8120-41dd-9182-9774cb1bbd0d]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_Select_Dropdown_Is_Present()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_SELECT_DROPDOWN_IS_PRESENT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep02_Verify_Select_Dropdown_Is_Present()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep02_Verify_Select_Dropdown_Is_Present" duration-ms="43" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep02_Verify_Select_Dropdown_Is_Present -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_Verify_Select_Dropdown_Is_Present status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_Select_Dropdown_Is_Present()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_USER_IS_ABLE_TO_VIEW_RATINGS_OF_THE_PRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product" duration-ms="50" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep03_VerifySearchResultPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_VERIFYSEARCHRESULTPAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep03_VerifySearchResultPage()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep03_VerifySearchResultPage" duration-ms="37" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep03_VerifySearchResultPage -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep03_VerifySearchResultPage status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep03_VerifySearchResultPage()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep04_VerifySearchResult()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep04_VerifySearchResult" duration-ms="86" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep04_VerifySearchResult -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep04_VerifySearchResult()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP04_VERIFYSEARCHRESULT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep04_VerifySearchResult status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep04_VerifySearchResult()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep05_SelectFirstProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep05_SelectFirstProduct" duration-ms="388" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep05_SelectFirstProduct -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep05_SelectFirstProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP05_SELECTFIRSTPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep05_SelectFirstProduct status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep05_SelectFirstProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep06_VerifyProductInfo()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep06_VerifyProductInfo" duration-ms="1277" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep06_VerifyProductInfo -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:45Z" finished-at="2016-11-04T20:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep06_VerifyProductInfo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFYPRODUCTINFO *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep06_VerifyProductInfo status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep06_VerifyProductInfo()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep07_VerifyProductName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP07_VERIFYPRODUCTNAME *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep07_VerifyProductName()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep07_VerifyProductName" duration-ms="34" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep07_VerifyProductName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep07_VerifyProductName status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep07_VerifyProductName()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep08_AddProductToCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep08_AddProductToCart" duration-ms="709" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep08_AddProductToCart -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep08_AddProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP08_ADDPRODUCTTOCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep08_AddProductToCart status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep08_AddProductToCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_VerifyCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFYCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep09_VerifyCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep09_VerifyCart" duration-ms="2996" started-at="2016-11-04T20:45:47Z" finished-at="2016-11-04T20:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep09_VerifyCart -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2016-11-04T20:45:50Z" finished-at="2016-11-04T20:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep09_VerifyCart status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_VerifyCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T20:45:50Z" finished-at="2016-11-04T20:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFY_SIMILAR_PRODUCTS_ARE_PRESNT_FOR_PRODUCT_DETAILS_PAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="FAIL" signature="TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page" duration-ms="60111" started-at="2016-11-04T20:45:50Z" finished-at="2016-11-04T20:46:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED: Element similar_products not found on the HomePage !!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED: Element similar_products not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.Verify_User_Is_Able_To_View_Similar_Items(CartPageActions.java:63)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="123" started-at="2016-11-04T20:46:50Z" finished-at="2016-11-04T20:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page status=FAILURE method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_46_PM\screenshot.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:46:50Z" finished-at="2016-11-04T20:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep10_Verify_User_Is_Able_To_Buy_The_Product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP10_VERIFY_USER_IS_ABLE_TO_BUY_THE_PRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="FAIL" signature="TestStep10_Verify_User_Is_Able_To_Buy_The_Product()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep10_Verify_User_Is_Able_To_Buy_The_Product" duration-ms="60091" started-at="2016-11-04T20:46:50Z" finished-at="2016-11-04T20:47:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED: Element buy_product not found on the HomePage !!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED: Element buy_product not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.verify_User_Is_Able_To_Buy_Product(CartPageActions.java:52)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep10_Verify_User_Is_Able_To_Buy_The_Product(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep10_Verify_User_Is_Able_To_Buy_The_Product -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="104" started-at="2016-11-04T20:47:51Z" finished-at="2016-11-04T20:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep10_Verify_User_Is_Able_To_Buy_The_Product status=FAILURE method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep10_Verify_User_Is_Able_To_Buy_The_Product()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_47_PM\screenshot.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="FAIL" signature="TestStep11_Verify_User_Navigated_To_Shipping_Page()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="TestStep11_Verify_User_Navigated_To_Shipping_Page" duration-ms="60101" started-at="2016-11-04T20:47:51Z" finished-at="2016-11-04T20:48:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED: Element continue_btn not found on the HomePage !!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED: Element continue_btn not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.verify_User_Navigated_To_Shipping_Cart_Page(CartPageActions.java:56)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep11_Verify_User_Navigated_To_Shipping_Page(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep11_Verify_User_Navigated_To_Shipping_Page -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T20:47:51Z" finished-at="2016-11-04T20:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep11_Verify_User_Navigated_To_Shipping_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP11_VERIFY_USER_NAVIGATED_TO_SHIPPING_PAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78]" name="take_screenshot_on_failure" is-config="true" duration-ms="114" started-at="2016-11-04T20:48:51Z" finished-at="2016-11-04T20:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep11_Verify_User_Navigated_To_Shipping_Page status=FAILURE method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep11_Verify_User_Navigated_To_Shipping_Page()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : C:\Users\Shivigoel\Desktop\Snapdeal\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_11_04_08_48_PM\screenshot.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+      </class> <!-- com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

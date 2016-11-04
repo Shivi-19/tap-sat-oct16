@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Shivigoel\AppData\Local\Temp\testng-eclipse--1261459774\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page">TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep10_Verify_User_Is_Able_To_Buy_The_Product">TestStep10_Verify_User_Is_Able_To_Buy_The_Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep11_Verify_User_Navigated_To_Shipping_Page">TestStep11_Verify_User_Navigated_To_Shipping_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep01_VerifyHomePage">TestStep01_VerifyHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep02_SearchProduct">TestStep02_SearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep02_Verify_Feilds_Are_Expandable">TestStep02_Verify_Feilds_Are_Expandable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep02_Verify_Select_Dropdown_Is_Present">TestStep02_Verify_Select_Dropdown_Is_Present</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product">TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep03_VerifySearchResultPage">TestStep03_VerifySearchResultPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep04_VerifySearchResult">TestStep04_VerifySearchResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep05_SelectFirstProduct">TestStep05_SelectFirstProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep06_VerifyProductInfo">TestStep06_VerifyProductInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep07_VerifyProductName">TestStep07_VerifyProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep08_AddProductToCart">TestStep08_AddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented" hash-for-method="TestStep09_VerifyCart">TestStep09_VerifyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page">
+                  </a> <!-- TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page -->
+                  <span class="method-name">TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page</span>
+                  <div class="stack-trace">java.lang.AssertionError: FAILED: Element similar_products not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.Verify_User_Is_Able_To_View_Similar_Items(CartPageActions.java:63)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep10_Verify_User_Is_Able_To_Buy_The_Product">
+                  </a> <!-- TestStep10_Verify_User_Is_Able_To_Buy_The_Product -->
+                  <span class="method-name">TestStep10_Verify_User_Is_Able_To_Buy_The_Product</span>
+                  <div class="stack-trace">java.lang.AssertionError: FAILED: Element buy_product not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.verify_User_Is_Able_To_Buy_Product(CartPageActions.java:52)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep10_Verify_User_Is_Able_To_Buy_The_Product(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep11_Verify_User_Navigated_To_Shipping_Page">
+                  </a> <!-- TestStep11_Verify_User_Navigated_To_Shipping_Page -->
+                  <span class="method-name">TestStep11_Verify_User_Navigated_To_Shipping_Page</span>
+                  <div class="stack-trace">java.lang.AssertionError: FAILED: Element continue_btn not found on the HomePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:84)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:62)
+	at com.qait.demo.keywords.CartPageActions.verify_User_Navigated_To_Shipping_Cart_Page(CartPageActions.java:56)
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep11_Verify_User_Navigated_To_Shipping_Page(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep01_VerifyHomePage">
+                  </a> <!-- TestStep01_VerifyHomePage -->
+                  <span class="method-name">TestStep01_VerifyHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep02_SearchProduct">
+                  </a> <!-- TestStep02_SearchProduct -->
+                  <span class="method-name">TestStep02_SearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep02_Verify_Feilds_Are_Expandable">
+                  </a> <!-- TestStep02_Verify_Feilds_Are_Expandable -->
+                  <span class="method-name">TestStep02_Verify_Feilds_Are_Expandable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep02_Verify_Select_Dropdown_Is_Present">
+                  </a> <!-- TestStep02_Verify_Select_Dropdown_Is_Present -->
+                  <span class="method-name">TestStep02_Verify_Select_Dropdown_Is_Present</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product">
+                  </a> <!-- TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product -->
+                  <span class="method-name">TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep03_VerifySearchResultPage">
+                  </a> <!-- TestStep03_VerifySearchResultPage -->
+                  <span class="method-name">TestStep03_VerifySearchResultPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep04_VerifySearchResult">
+                  </a> <!-- TestStep04_VerifySearchResult -->
+                  <span class="method-name">TestStep04_VerifySearchResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep05_SelectFirstProduct">
+                  </a> <!-- TestStep05_SelectFirstProduct -->
+                  <span class="method-name">TestStep05_SelectFirstProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep06_VerifyProductInfo">
+                  </a> <!-- TestStep06_VerifyProductInfo -->
+                  <span class="method-name">TestStep06_VerifyProductInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep07_VerifyProductName">
+                  </a> <!-- TestStep07_VerifyProductName -->
+                  <span class="method-name">TestStep07_VerifyProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep08_AddProductToCart">
+                  </a> <!-- TestStep08_AddProductToCart -->
+                  <span class="method-name">TestStep08_AddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep09_VerifyCart">
+                  </a> <!-- TestStep09_VerifyCart -->
+                  <span class="method-name">TestStep09_VerifyCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shivigoel\AppData\Local\Temp\testng-eclipse--1261459774\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page')
+data.setCell(0, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(0, 3, 60111);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestStep11_Verify_User_Navigated_To_Shipping_Page')
+data.setCell(1, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(1, 3, 60101);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestStep10_Verify_User_Is_Able_To_Buy_The_Product')
+data.setCell(2, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(2, 3, 60091);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestStep09_VerifyCart')
+data.setCell(3, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(3, 3, 2996);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestStep02_Verify_Feilds_Are_Expandable')
+data.setCell(4, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(4, 3, 2008);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestStep06_VerifyProductInfo')
+data.setCell(5, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(5, 3, 1277);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestStep02_SearchProduct')
+data.setCell(6, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(6, 3, 947);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestStep08_AddProductToCart')
+data.setCell(7, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(7, 3, 709);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestStep05_SelectFirstProduct')
+data.setCell(8, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(8, 3, 388);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestStep01_VerifyHomePage')
+data.setCell(9, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(9, 3, 91);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestStep04_VerifySearchResult')
+data.setCell(10, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(10, 3, 86);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product')
+data.setCell(11, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(11, 3, 50);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestStep02_Verify_Select_Dropdown_Is_Present')
+data.setCell(12, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(12, 3, 43);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestStep03_VerifySearchResultPage')
+data.setCell(13, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(13, 3, 37);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestStep07_VerifyProductName')
+data.setCell(14, 2, 'com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented')
+data.setCell(14, 3, 34);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestStep02_Verify_Feilds_Are_Expandable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Element [[FirefoxDriver: firefox on WINDOWS (71fb9512-8120-41dd-9182-9774cb1bbd0d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1501PO01976', ip: '10.0.31.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fb9512-8120-41dd-9182-9774cb1bbd0d</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Start_Test_Session</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">9786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep01_VerifyHomePage</span>
+                <span class="method-start">9787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep01_VerifyHomePage status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest...)</span>
+                <span class="method-start">9879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">9881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep02_SearchProduct</span>
+                <span class="method-start">9882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep02_SearchProduct status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_...)</span>
+                <span class="method-start">10830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep02_Verify_Feilds_Are_Expandable</span>
+                <span class="method-start">10834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">10834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep02_Verify_Feilds_Are_Expandable status=SUCCESS method=TestLevel2_GenericEco...)</span>
+                <span class="method-start">12843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep02_Verify_Select_Dropdown_Is_Present</span>
+                <span class="method-start">12845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">12845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep02_Verify_Select_Dropdown_Is_Present status=SUCCESS method=TestLevel2_Gener...)</span>
+                <span class="method-start">12889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">12890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product</span>
+                <span class="method-start">12891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product status=SUCCESS method...)</span>
+                <span class="method-start">12941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep03_VerifySearchResultPage</span>
+                <span class="method-start">12943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">12943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep03_VerifySearchResultPage status=SUCCESS method=TestLevel2_GenericEcommerse...)</span>
+                <span class="method-start">12981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep04_VerifySearchResult</span>
+                <span class="method-start">12983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">12983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep04_VerifySearchResult status=SUCCESS method=TestLevel2_GenericEcommerseSite...)</span>
+                <span class="method-start">13069 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep05_SelectFirstProduct</span>
+                <span class="method-start">13072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">13072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep05_SelectFirstProduct status=SUCCESS method=TestLevel2_GenericEcommerseSite...)</span>
+                <span class="method-start">13461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep06_VerifyProductInfo</span>
+                <span class="method-start">13463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">13463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep06_VerifyProductInfo status=SUCCESS method=TestLevel2_GenericEcommerseSiteT...)</span>
+                <span class="method-start">14741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep07_VerifyProductName</span>
+                <span class="method-start">14742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">14742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep07_VerifyProductName status=SUCCESS method=TestLevel2_GenericEcommerseSiteT...)</span>
+                <span class="method-start">14777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep08_AddProductToCart</span>
+                <span class="method-start">14780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">14780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep08_AddProductToCart status=SUCCESS method=TestLevel2_GenericEcommerseSiteTe...)</span>
+                <span class="method-start">15490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestStep09_VerifyCart</span>
+                <span class="method-start">15491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">15491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep09_VerifyCart status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stu...)</span>
+                <span class="method-start">18488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">18491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page</span>
+                <span class="method-start">18492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep09_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page status=FAILU...)</span>
+                <span class="method-start">78606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestStep10_Verify_User_Is_Able_To_Buy_The_Product</span>
+                <span class="method-start">78730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">78730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep10_Verify_User_Is_Able_To_Buy_The_Product status=FAILURE method=TestLevel2_...)</span>
+                <span class="method-start">138824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestStep11_Verify_User_Navigated_To_Shipping_Page</span>
+                <span class="method-start">138928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be...)</span>
+                <span class="method-start">138928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=TestStep11_Verify_User_Navigated_To_Shipping_Page status=FAILURE method=TestLevel2_...)</span>
+                <span class="method-start">199032 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
