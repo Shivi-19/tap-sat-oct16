@@ -60,7 +60,6 @@ public class TestLevel1_SnapDeal_Selenium_Imported_From_IDE_Broken_Needs_To_Be_F
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
       fail(verificationErrorString);
-// fail(verificationErrorString);   change
     }
   }
 

@@ -40,4 +40,6 @@ email_feild                       css                     #email
 edit_btn                           css                     .edit-icon.change
 help_btn                           css                    div.GSPgJx +a div._2O_Aso
 help_heading                       css                    ._24Lb6I
+remove_button                     css                    .cart-remove-item.fk-inline-block.fk-uppercase
+continue_shoping_button           css                     .btn.btn-blue.close.continue-button.continue-empty-btn.tmargin10
 ====================================================================================

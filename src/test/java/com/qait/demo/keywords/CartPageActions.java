@@ -59,9 +59,50 @@ public class CartPageActions extends GetPage {
 		
 	}
 
-	public void Verify_User_Is_Able_To_View_Similar_Items() {
-		Assert.assertTrue(element("similar_products").isDisplayed(),"[ASSERT FAILED]: User Is Not Able To access the Similar Products");
+	public void verifyRemoveButton() {
+		element("remove_button").click();
 		
 	}
 
+	public void verifyContinueShopingButton() {
+		element("continue_shoping_button").click();
+		
+	}
+
+	public void VerifyElectronicsTab() {
+		
+		
+	}
+
+	public void VerifyAppliancesTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void VerifyWomenTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void VerifyOfferZoneTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void VerifyBaby_KidsTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void VerifyHome_FurnitureTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void VerifyBooks_MoreTab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }
